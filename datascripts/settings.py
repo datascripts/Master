@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '2a-za$s5l9*2f$!+f4p(yf5vjr)frqh&4ik6oj5v6!8rtcxz(+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -139,8 +139,8 @@ MESSAGE_TAGS = {
 # Email Config
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'hariswork1234@gmail.com'
-EMAIL_HOST_PASSWORD = '4209211007'
+EMAIL_HOST_USER = 'datascripts.net@gmail.com'
+EMAIL_HOST_PASSWORD = '$$Data7803$$'
 EMAIL_USE_TLS=True
 
 django_heroku.settings(locals())
