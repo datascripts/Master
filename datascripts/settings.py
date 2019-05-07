@@ -139,12 +139,11 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
-
 # Email Config
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'datascripts.net@gmail.com'
-EMAIL_HOST_PASSWORD = '$$Data7803$$'
+EMAIL_HOST_USER = 'hariswork123@gmail.com'
+EMAIL_HOST_PASSWORD = '4209211007'
 EMAIL_USE_TLS=True
 
 django_heroku.settings(locals())

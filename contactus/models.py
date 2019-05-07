@@ -1,7 +1,4 @@
 from django.db import models
-
-from django.db import models
-
 from datetime import datetime
 
 class Contact(models.Model):
