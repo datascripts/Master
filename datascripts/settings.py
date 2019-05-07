@@ -36,7 +36,7 @@ ALLOWED_HOSTS = ['datascriptsnet.herokuapp.com',
 
 INSTALLED_APPS = [
     'accounts.apps.AccountsConfig',
-    'ContactForm.apps.ContactFormConfig',
+    'contactus.apps.ContactusConfig',
     'pages.apps.PagesConfig',
     'django.contrib.admin',
     'django.contrib.auth',
