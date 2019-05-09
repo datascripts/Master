@@ -25,10 +25,13 @@ SECRET_KEY = '2a-za$s5l9*2f$!+f4p(yf5vjr)frqh&4ik6oj5v6!8rtcxz(+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['datascriptsnet.herokuapp.com',
+ALLOWED_HOSTS = [
+'localhost',
+'datascriptsnet.herokuapp.com',
 'www.datascripts.net',
 '.herokuapp.com',
 'datascripts.net',
+'*',
 ]
 
 
